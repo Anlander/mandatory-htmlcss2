@@ -10,36 +10,74 @@ body {
 }
 
 header {
-  position: fixed;
+  position: absolute;
   width: 100%;
-  height: 13%;
-  background-color: blue;
+  height: 7%;
+  background-color: #bf7faf;
   padding: 20px;
 }
 
 h1 {
   float: left;
-  position: fixed;
+  position: absolute;
   font-size: 70px;
-  left: 5%;
-  top: 5%;
+  left: 4%;
   color: white;
 
 }
 
 li {
   float: left;
-  padding: 14px 16px;
+  padding: 25px 50px;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
+  padding-right: 50px;
 
 
 }
 
 ul {
-    position: fixed;
+    position: absolute;
     left: 30%;
-    top: 7%;
+    top: 3.5%;
     list-style-type: none;
 
   }
+
+a {
+    text-decoration: none;
+    color: white;
+  }
+
+a:hover {
+  color: #855a7a;
+}
+
+.Flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  top: 12%;
+  width: 100%;
+
+}
+ img {
+   height: 150px;
+   width: 230px;;
+   margin: 20px;
+
+
+ }
+
+ .big-image {
+   height: 330px;
+   width: 590px;
+
+
+ }
+
+ @media screen and(max-width:700px){
+  ul{display:none;}
+
+ }
